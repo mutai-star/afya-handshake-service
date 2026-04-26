@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: afya-handshake-service
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn run:app
